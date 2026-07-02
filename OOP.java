@@ -18,4 +18,7 @@ Class : aw naxshayaya (qallbaya) ka objecty lasar drwst dakret bo har shtek tanh
 
 Object : aw shtaya ka lasar Class drwst dakret w bo har Classek datwanret chandan Object drwst bkret 
 
+Agar Attributes sifatakany Object bn - Method aw karanaya ka Object datwanet anjamyan bdat    
+
 ** nabet hamw codekan la yak class bnwsin awa hallaya bo nmwna agar keshayakt bo drwst bet yan btawe gorankary bkait awa tanha aw Classa **
+
