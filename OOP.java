@@ -22,5 +22,11 @@ Object : aw shtaya ka lasar Class drwst dakret w bo har Classek datwanret chanda
 
 Agar Attributes sifatakany Object bn - Method aw karanaya ka Object datwanet anjamyan bdat    
 
-** nabet hamw codekan la yak class bnwsin awa hallaya bo nmwna agar keshayakt bo drwst bet yan btawe gorankary bkait awa tanha aw Classa **
+// nabet hamw codekan la yak class bnwsin awa hallaya bo nmwna agar keshayakt bo drwst bet yan btawe gorankary bkait awa tanha aw Classa 
+  
+// wa jwantra Classakan la filey jyawaz dabney awa rek w pektra
 
+/* peshtr labar away hamw codekan la yak Class bwn awa keshaman nabw ballam esta labar away la Classy jyawzn boya katek 
+  damanawe shtek la Classek bo Classeky tr bgwazinawa dabet sarata nawy Object bnwsin */
+  
+  
