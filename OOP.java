@@ -1,3 +1,5 @@
+THE MOST IMPORTANT NOTE IS ALL THING SHOULD BE IN CLASS (THE IS ONE OF THING THAT SEPARATE JAVA FROM OTHER LANGUAGES) 
+
 OOP regayaka bo rekxstny code bo away xoman bparezin la nwsini codey dwbara w narek 
 
 4 bnamay saraky haya ka marja bizany bo control krdny OOP
