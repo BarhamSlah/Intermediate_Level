@@ -77,4 +77,55 @@ public class Car {
 
 ************************************************************************************************************************************
 
-  
+public class Challenge {
+   public static void main(String[] args) {
+
+Car car1 = new Car("Toyata" , "Hiluix" , "White" ,12425 , 18_000, 2013 );
+
+       System.out.println("Company: " + car1.company);
+       System.out.println("Model: " + car1.model);
+       System.out.println("Color: " + car1.color);
+       System.out.println("Number: " + car1.number);
+       System.out.println("Price: " + car1.price);
+       System.out.println("Year: " + car1.year);
+
+       System.out.println();
+
+    Car car2 = new Car("Nissan" , "Altima" , "Black" ,1934 , 13_000, 2023 );
+
+       System.out.println("Company: " + car2.company);
+       System.out.println("Model: " + car2.model);
+       System.out.println("Color: " + car2.color);
+       System.out.println("Number: " + car2.number);
+       System.out.println("Price: " + car2.price);
+       System.out.println("Year: " + car2.year);
+
+       System.out.println();
+
+}
+}
+
+//////
+
+public class Car {
+
+    String company;
+    String model;
+    String color;
+    int number;
+    int price;
+    int year;
+
+   Car(String company , String model , String color , int number , int price , int year){
+        this.company = company;
+        this.model = model;
+        this.color = color;
+        this.number = number;
+        this.price = price;
+        this.year = year;
+    }
+
+}
+
+*********************************************************************************************************************************
+
