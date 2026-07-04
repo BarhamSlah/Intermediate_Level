@@ -77,10 +77,12 @@ public class Car {
 
 ************************************************************************************************************************************
 
+  HERE I TALKED ABOUT CONSTRUCTOR THAT MEAN HOW TO WRITE ARGUMENT IN OBJECT 
+  
 public class Challenge {
    public static void main(String[] args) {
 
-Car car1 = new Car("Toyata" , "Hiluix" , "White" ,12425 , 18_000, 2013 );
+    Car car1 = new Car("Toyata" , "Hiluix" , "White" , 12425 , 18_000 , 2013 );
 
        System.out.println("Company: " + car1.company);
        System.out.println("Model: " + car1.model);
@@ -89,9 +91,9 @@ Car car1 = new Car("Toyata" , "Hiluix" , "White" ,12425 , 18_000, 2013 );
        System.out.println("Price: " + car1.price);
        System.out.println("Year: " + car1.year);
 
-       System.out.println();
+       System.out.println();   // THIS IS USE TO MAKE SPACE BETWEEN OUTPUT
 
-    Car car2 = new Car("Nissan" , "Altima" , "Black" ,1934 , 13_000, 2023 );
+    Car car2 = new Car("Nissan" , "Altima" , "Black" , 1934 , 13_000 , 2023 );
 
        System.out.println("Company: " + car2.company);
        System.out.println("Model: " + car2.model);
@@ -100,7 +102,7 @@ Car car1 = new Car("Toyata" , "Hiluix" , "White" ,12425 , 18_000, 2013 );
        System.out.println("Price: " + car2.price);
        System.out.println("Year: " + car2.year);
 
-       System.out.println();
+       System.out.println();   // THIS IS USE TO MAKE SPACE BETWEEN OUTPUT
 
 }
 }
@@ -129,3 +131,4 @@ public class Car {
 
 *********************************************************************************************************************************
 
+  
