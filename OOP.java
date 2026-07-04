@@ -12,7 +12,7 @@ OOP regayaka bo rekxstny code bo away xoman bparezin la nwsini codey dwbara w na
 
 4- Abstraction : shardnaway detail w pshandany shty grng 
 
-*********************************************************************************************************************************************
+******************************************************************************************************************************************
 
 Lerada basy jyawazy newan Class w Object dakain 
 
@@ -28,5 +28,53 @@ Agar Attributes sifatakany Object bn - Method aw karanaya ka Object datwanet anj
 
 /* peshtr labar away hamw codekan la yak Class bwn awa keshaman nabw ballam esta labar away la Classy jyawzn boya katek 
   damanawe shtek la Classek bo Classeky tr bgwazinawa dabet sarata nawy Object bnwsin */
+
+*****************************************************************************************************************************************
   
+public class Challenge {
+   public static void main(String[] args) {
+
+Car car1 = new Car();
+
+car1.company= "Toyota";
+car1.model = "Pick Up";
+car1.color = "White";
+car1.number =12425 ;
+car1.price = 18_000 ;
+car1.year = 2013 ;
+
+System.out.println("This car is " + car1.company + " " + car1.model + " with " + car1.number + " number.");
+System.out.println("It is a " + car1.year + " " + car1.color + " car and costs $" + car1.price);
+
+car1.start();
+car1.stop();
+
+    }
+}  
+
+//////
+
+public class Car {
+
+  String company;
+  String model;
+  String color;
+  int year;
+  int price;
+  int number;
+
+  void start(){
+      boolean turnOn = true;
+      System.out.println("Is your car working ? " + turnOn);
+  }
+
+  void stop(){
+    boolean turnOn = false;
+    System.out.println("Is your car working ? " + turnOn);
+  }
+
+}
+
+************************************************************************************************************************************
+
   
