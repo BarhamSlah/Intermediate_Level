@@ -140,12 +140,14 @@ public class Challenge {
 Car car1 = new Car("Toyota");
 Car car2 = new Car("BMW" , 2020);
 Car car3 = new Car(10_000 , "MG");
-Car car4 = new Car();     
+Car car4 = new Car(20_000 , "Maxima" , 2025);  
+Car car5 = new Car();     
 
-       System.out.println("Car1 company is : " + car1.company);
-       System.out.println("Car2 company is : " + car2.company + " & year is : " +car2.year );
-       System.out.println("Car3 model is : " + car3.model + " & price is : " + car3.price);
-       System.out.println(car4.nameofvariable) 
+System.out.println("Car1 company is : " + car1.company);
+System.out.println("Car2 company is : " + car2.company + " & year is : " +car2.year );
+System.out.println("Car3 model is : " + car3.model + " & price is : " + car3.price);
+System.out.println("Car4 model is : " + car4.model + " & price is : " + car4.price + " & year is : " + car4.year);
+System.out.println(//car5.nameofvariable);
        // the result is random based on datatype that declared variable for example int = 0 : String = null
 
    }
@@ -175,10 +177,16 @@ public class Car {
 
         this.model = model;
         this.price = price;
+    }
+
+   Car(double price , String model , int year) {
+      this.model = "Maxima";   // this is selected when write argument this alo appear
+      this.year = 2025;         // this is selected when write argument this alo appear
+      this.price = price;
+     
+   }
 
    Car(){
      // here the blank constructor
-   }
-      
+   }      
     }  
-}
