@@ -117,9 +117,9 @@ public class Car {
     int year;
 
    Car(String company , String model , String color , int number , int price , int year){
-        this.company = company;
-        this.model = model;
-        this.color = color;
+        this.company = company;   // this.company = company line 3  *  company = company line 10
+        this.model = model;       // keyword (this) use to separate  which one do you mean
+        this.color = color;       // that is mean if tne name is NOT equal (this) is unnecessary
         this.number = number;
         this.price = price;
         this.year = year;
