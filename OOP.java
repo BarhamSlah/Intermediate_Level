@@ -140,10 +140,13 @@ public class Challenge {
 Car car1 = new Car("Toyota");
 Car car2 = new Car("BMW" , 2020);
 Car car3 = new Car(10_000 , "MG");
+Car car4 = new Car();     
 
        System.out.println("Car1 company is : " + car1.company);
        System.out.println("Car2 company is : " + car2.company + " & year is : " +car2.year );
        System.out.println("Car3 model is : " + car3.model + " & price is : " + car3.price);
+       System.out.println(car4.nameofvariable) 
+       // the result is random based on datatype that declared variable for example int = 0 : String = null
 
    }
 }
@@ -172,5 +175,10 @@ public class Car {
 
         this.model = model;
         this.price = price;
+
+   Car(){
+     // here the blank constructor
+   }
+      
     }  
 }
