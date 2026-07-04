@@ -49,7 +49,7 @@ System.out.println("It is a " + car1.year + " " + car1.color + " car and costs $
 car1.start();
 car1.stop();
 
-    }
+  }
 }  
 
 //////
@@ -72,7 +72,6 @@ public class Car {
     boolean turnOn = false;
     System.out.println("Is your car working ? " + turnOn);
   }
-
 }
 
 ************************************************************************************************************************************
@@ -104,7 +103,7 @@ public class Challenge {
 
        System.out.println();   // THIS IS USE TO MAKE SPACE BETWEEN OUTPUT
 
-}
+ }
 }
 
 //////
@@ -119,6 +118,7 @@ public class Car {
     int year;
 
    Car(String company , String model , String color , int number , int price , int year){
+     
         this.company = company;   // this.company = company line 3  *  company = company line 10
         this.model = model;       // keyword (this) use to separate  which one do you mean
         this.color = color;       // that is mean if tne name is NOT equal (this) is unnecessary
@@ -126,9 +126,12 @@ public class Car {
         this.price = price;
         this.year = year;
     }
-
 }
 
 *********************************************************************************************************************************
+
+HERE I TALKED ABOUT CONSTRUCTOR OVERLOADED THAT MEAN HOW YOU CAN WRITE MORE THAN ONE CONSTRUCTOR BY DIFFERENCE OF PARAMETER 
+
+THE COMPILER CAN SEPARATE BETWEEN CONSTRUCTOR OVERLOADED JUST LIKE METHOD OVERLOADED BY (SORT DATATYPE , NUMBER , SEQUENCE)
 
   
