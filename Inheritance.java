@@ -19,30 +19,33 @@ public class Factory {
 
 ////////////////////////////
 
-public class Car {
+public class Car {   // THIS IS A PARENT CLASS 
 
     boolean value;
 
-    Car(){
-
-        this.value = true;
-
+    Car () {
+        this.value = true;   
     }
 
-    void start (){
+ // agadarba agar la classy parent constructort bakar hena nabet argumenty habet agar habet dabet super bakar beny
+   
+    void start () {
+       
         System.out.println("Your car is working");
+       
     }
 }
 
-//////////////////////
+/////////////////////////
 
- class Nissan extends Car{
-
+public class Nissan extends Car {   // THIS IS A CHILD CLASS 
+// LERA AWAY LA CLASSY PARENT HAYA LA CLASSY CHILDISH HAYA
 }
 
 /////////////////
 
-public class BMW extends Car{
-
+public class BMW extends Car {   // THIS IS A CHILD CLASS
+// LERA AWAY LA CLASSY PARENT HAYA LA CLASSY CHILDISH HAYA
 }
 
+*********************************************************************************************************************
