@@ -1,3 +1,21 @@
+SubClass = ChildClass  &  SuperClass = ParentClass
+
+lera ema basy Inheritance dakain :
+
+ema constructor man la parent drwst dakain agar :
+
+1- agar parametery nabw awa dabet lanaww constructor valuey ba variable bdain
+
+2- agar paremetery habw awa la subclass 2 shewazman haya bo away valuey ba variable bdain lanaw constructor
+
+1- super (lera valuey danwsy)
+** la katy drwst krdny object hich nanwsy lanaw ()   
+
+2- super (nawy variable danwsy)
+** la katy drwst krdny object valuey lanaw () danwsy   
+
+***************************************************************************************************************************
+   
 public class Factory {
 
    public static void main() {
@@ -49,3 +67,9 @@ public class BMW extends Car {   // THIS IS A CHILD CLASS
 }
 
 *********************************************************************************************************************
+
+
+
+
+
+   
