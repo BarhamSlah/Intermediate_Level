@@ -68,8 +68,61 @@ public class BMW extends Car {   // THIS IS A CHILD CLASS
 
 *********************************************************************************************************************
 
+public class Factory {
 
+   public static void main() {
 
+   Car car = new Car (20_000, 12345 , "camry");
+   Toyota toyota = new Toyota();
+   Nissan nissan = new  Nissan(25_000 , 2004 , "Maxima" , "Ivan Espinosa");
+
+System.out.println("Car: " + car.name + " Value: " + car.value + " Number: " + car.number);
+System.out.println("Toyota: " + toyota.name + " Value: " + toyota.value + " Number: " + toyota.number);
+System.out.println("Nissan: " + nissan.name + " Value: " + nissan.value + " Number: " + nissan.number  + " \n CEO of Nissan is " + nissan.nameOfCEO);
+
+    }
+}
+
+//////////////////////////////
+
+public class Car {
+
+    int value;
+    int number;
+    String name;
+
+    Car(int value, int number, String name){
+        this.value = value;
+        this.number = number;
+        this.name = name;
+    }
+
+}
+
+//////////////////////////////
+
+public class Toyota extends Car {
+
+    Toyota(){
+        super(18_300 , 12425 , "Hiluix");
+    }
+
+}
+
+//////////////////////////////
+
+public class Nissan extends Car {
+
+    String nameOfCEO;
+
+    Nissan(int value, int number, String name , String nameOfCEO ){
+        super(value, number, name);
+        this.nameOfCEO = nameOfCEO;
+    }
+
+}
+
+///////////////////////////////
 
 
    
