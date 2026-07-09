@@ -96,7 +96,6 @@ public class Car {
         this.number = number;
         this.name = name;
     }
-
 }
 
 //////////////////////////////
@@ -113,13 +112,13 @@ public class Toyota extends Car {
 
 public class Nissan extends Car {
 
-    String nameOfCEO;
+    String nameOfCEO;   // labar away awa haqy ba superclass nya boya wakw variabley asayi mamallay lagall dakret 
 
     Nissan(int value, int number, String name , String nameOfCEO ){
         super(value, number, name);
-        this.nameOfCEO = nameOfCEO;
-    }
+        this.nameOfCEO = nameOfCEO;    // labar away awa haqy ba superclass nya boya wakw variabley asayi mamallay lagall dakret 
 
+    }
 }
 
 ///////////////////////////////
