@@ -22,7 +22,7 @@ I am talking about toString
 1- toString is method.
 2- if you don't make toString and System.out.println(nameOfObject) the compiler will give you the of class and hashcode.
 3- if you make toString in the class and then System.out.println(nameOfObject) the compiler give you the data in the class.
-4- it is not necessarily to write all variable that you wrote in the constructor. 
+4- it is not necessarily to return all variable that you wrote in the constructor. 
 5- it is also use in the debugging process.
 
  public class Info {
