@@ -18,4 +18,41 @@ void start(){
 
 ***************************************************************************************************************************
 
-  
+ public class Info {
+    public static void main() {
+
+Person person1 = new Person ("Barham " , "Kurdistan" , "Student " , 18);
+Person person2 = new Person ("Mawsm" , "Kurdistan" , "Jobless" , 21);
+Person person3 = new Person ("Daiki Zain" , "Kurdistan" , "Uztaz" , 26);
+
+System.out.println(person1);
+System.out.println(person2);
+System.out.println(person3);
+
+    }
+}
+
+////////////////////////
+
+public class Person {
+
+    String name;
+    String fromWhere;
+    String job;
+    int age;
+
+    Person(String name, String fromWhere, String job, int age){
+        this.name = name;
+        this.fromWhere = fromWhere;
+        this.job = job;
+        this.age = age;
+    }
+
+    @Override
+    public String toString(){
+        return "The name is " + this.name + "\n" + "The person is " + this.age + " years old \n" +   "The person is from " + this.fromWhere + "\n" +                "The person is a " + this.job + "\n";
+
+    }
+}
+
+**************************************************************************************************************************************
