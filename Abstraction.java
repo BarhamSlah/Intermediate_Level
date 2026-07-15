@@ -8,3 +8,54 @@ Abstract Class: It can contain both regular methods (with code/body) and abstrac
   
 Interface: It is completely abstract: it contains only and exclusively abstract methods
 (without code/body) which the subclasses must write entirely by themselves.  
+
+*******************************************************************************************************************************
+public class Main {
+public static void main(String[] args) {
+
+Rectangle rectangle = new Rectangle(2, 7);
+Traingle traingle = new Traingle(3);
+
+        System.out.println("This is traingle area " + traingle.area());
+        System.out.println("This is rectangle area " + rectangle.area());
+    }
+}
+
+/////////////////////
+public abstract class Shape {
+
+    abstract double area();
+    
+}
+////////////////////
+public class Rectangle extends Shape{
+
+    double length;
+    double width;
+
+ Rectangle(double length , double  width){
+    this.length = length;
+    this.width = width;
+}
+
+    @Override
+    double area() {
+        return length * width;
+    }
+}
+////////////////////////////
+public class Traingle extends Shape{
+
+    double side;
+
+    Traingle(double side){
+        this.side = side;
+    }
+
+    @Override
+    double area(){
+        return side * side * side;
+    }
+
+}
+///////////////////////////////
