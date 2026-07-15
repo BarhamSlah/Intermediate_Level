@@ -9,6 +9,7 @@ Abstract Class: It can contain both regular methods (with code/body) and abstrac
 Interface: It is completely abstract: it contains only and exclusively abstract methods
 (without code/body) which the subclasses must write entirely by themselves.  
 
+ // aw classay abstract dakre natwanre objecty le drwst bkret 
 *******************************************************************************************************************************
 public class Main {
 public static void main(String[] args) {
@@ -25,7 +26,8 @@ Traingle traingle = new Traingle(3);
 public abstract class Shape {
 
     abstract double area();
-    
+    // awa methody abstracta boya hichy teda nanwsret
+    // la subclass override dakret bo away har yakaw featurey xoy habet
 }
 ////////////////////
 public class Rectangle extends Shape{
@@ -54,7 +56,7 @@ public class Traingle extends Shape{
 
     @Override
     double area(){
-        return side * side * side;
+      return side * side * side;
     }
 
 }
