@@ -15,5 +15,64 @@ Class to Interface: Use implements (A class fulfills the contract of an interfac
   
 Interface to Interface: Use extends (An interface can expand upon another interface).
 **************************************************************************************
+// THIS IS A EXAMPLE OF INTERFACE
 
-  
+public class Main {
+    public static void main(String[] args) {
+
+Dog dog = new Dog();
+Cat cat = new Cat();
+Mouse mouse = new Mouse();
+
+dog.predator();
+cat.predator();
+cat.prey();
+mouse.prey();
+
+    }
+}
+//////////////////////  
+ public interface Predator {
+
+    void predator();
+
+} 
+///////////////////////
+public interface Prey {
+
+    void prey();
+
+}
+//////////////////////
+public class Dog implements Predator {
+
+    @Override
+    public void predator(){
+        System.out.println("The dog always predator");
+    }
+
+}
+/////////////////////////
+public class Mouse implements Prey {
+
+    @Override
+    public void prey(){
+        System.out.println("The mouse Always prey");
+    }
+
+}
+///////////////////////////
+public class Cat implements Predator , Prey{
+
+    @Override
+    public void prey(){
+        System.out.println("The cat at here is prey");
+    }
+
+    @Override
+    public void predator(){
+        System.out.println("The cat at here is predator");
+    }
+
+}
+*****************************************************************************************************************
