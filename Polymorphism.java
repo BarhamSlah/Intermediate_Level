@@ -72,12 +72,14 @@ public class Main {
         System.out.print("1 = Dog  *  2 = Cat ");
         int choice = scanner.nextInt();
 
+        Animal animal;
+        
         if(choice == 1){
-            Dog dog = new Dog();
-            dog.speak();
+            animal = new Dog();
+            animal.speak();
         } else if (choice == 2){
-            Cat cat = new Cat();
-            cat.speak();
+            animal = new Cat();
+            animal.speak();
         }
         scanner.close();
 
