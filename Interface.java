@@ -62,7 +62,7 @@ public class Mouse implements Prey {
 
 }
 ///////////////////////////
-public class Cat implements Predator , Prey{
+public class Cat implements Predator , Prey{   // THIS IS AN EXAMPLE OF SUBCLASS CAN HAS MORE THAN ONE INTERFACE
 
     @Override
     public void prey(){
@@ -76,6 +76,7 @@ public class Cat implements Predator , Prey{
 
 }
 *****************************************************************************************************************
+  // I CREATED 3 SUBCLASS THAT HAS SAME ABSTRACT METHOD 
 public class Main {
     public static void main(String[] args) {
 
@@ -88,6 +89,12 @@ public class Main {
         for (Bird bird : birds) {
             bird.fly();
         }
+      
+      // THIS IS INSTEAD YOU WRITE MANY TIME OF 
+      // falcon.fly();
+      //cocktail.fly();
+      //owl.fly();
+      
     }
     }
 //////////////////////
