@@ -59,4 +59,52 @@ public class Owl implements Bird {
 
 }
 *********************************************************************************************************************************  
-  
+ // THIS IS AN EXAMPLE OF DYNAMIC POLYMORPHISM
+
+ import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("DO YOU WANT HEAR OF DOG OR CAT ?  ");
+        System.out.print("1 = Dog  *  2 = Cat ");
+        int choice = scanner.nextInt();
+
+        if(choice == 1){
+            Dog dog = new Dog();
+            dog.speak();
+        } else if (choice == 2){
+            Cat cat = new Cat();
+            cat.speak();
+        }
+        scanner.close();
+
+    }
+    }
+////////////////////////
+public abstract class Animal {
+
+    abstract void speak();
+
+}   
+//////////////////////
+public class Cat extends Animal{
+
+    @Override
+    void speak(){
+        System.out.println("The cat is meowing");
+    }
+
+}
+/////////////////////////
+public class Dog extends Animal{
+
+    @Override
+    void speak(){
+        System.out.println("The dog is woofing");
+    }
+
+}
+****************************************************************************************************************************
