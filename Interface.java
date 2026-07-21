@@ -76,3 +76,51 @@ public class Cat implements Predator , Prey{
 
 }
 *****************************************************************************************************************
+public class Main {
+    public static void main(String[] args) {
+
+        Falcon falcon = new Falcon();
+        Cocktail cocktail = new Cocktail();
+        Owl owl = new Owl();
+
+        Bird[] birds = {falcon, cocktail, owl };
+
+        for (Bird bird : birds) {
+            bird.fly();
+        }
+    }
+    }
+//////////////////////
+public interface Bird {
+
+    void fly();
+
+}
+////////////////////////
+public class Falcon implements Bird{
+
+    @Override
+    public void fly(){
+        System.out.println("The falcon is flying");
+    }
+
+}
+/////////////////////////
+public class Cocktail implements Bird{
+
+    @Override
+    public void fly(){
+        System.out.println("The cocktail is flying");
+
+    }
+}
+//////////////////////////
+public class Owl implements Bird {
+
+    @Override
+    public void fly(){
+        System.out.println("The owl is flying");
+    }
+
+}
+***********************************************************************************************************************************
