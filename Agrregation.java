@@ -5,10 +5,10 @@ public class Main{
        Book book2 = new Book("The Power Of Now", 302);
        Book book3 = new Book("Gela Piaw", 280);
 
+       // we created an array
        Book[] books = {book1 , book2 , book3};
 
        Library library = new Library("Ashty" , 2011 , books);
-
 
       library.displayInfo();
 
@@ -19,7 +19,7 @@ public class Library {
 
 String name;
 int publish;
-Book[] books;
+Book[] books;  // instead of variable
 
 Library (String name, int publish, Book[] books){
    this.name = name;
