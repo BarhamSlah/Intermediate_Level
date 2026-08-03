@@ -12,3 +12,20 @@
         then use `try-catch`.
 */
 
+
+      try{
+              System.out.println(1 / 0);
+      } catch (ArithmeticException error){
+        System.out.println("You can't divide by zero");
+      } finally {
+              System.out.println("finally always execute");
+      }
+***************************************************************************
+              try {
+      Scanner scanner = new Scanner(System.in);
+      System.out.print("Enter your number ");
+      double yourNumber = scanner.nextDouble();
+
+       }catch (InputMismatchException e){
+         System.out.println("You should enter number");
+       }
