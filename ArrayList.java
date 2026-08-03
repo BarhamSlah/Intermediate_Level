@@ -34,3 +34,31 @@ public class Main {
         }
     }
 }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Main{
+    public static void main() {
+
+        ArrayList<String> foods = new ArrayList<>();
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("How many food would you like ? ");
+        int numOfFoods = scanner.nextInt();
+        scanner.nextLine();
+
+        for(int i = 1 ; i <= numOfFoods ; i++){
+            System.out.print("Enter your food ");
+            String yourFood = scanner.nextLine();
+            foods.add(yourFood);
+        }
+        System.out.println("Your foods that you like ");
+        System.out.println(foods);
+
+        scanner.close();
+    }
+}
