@@ -6,7 +6,8 @@ BufferedWriter :  For large amounts of text and big files
 PrintWriter :  For creating structured logs and reports.
 FileOutputStream :  For binary files (images, audio, video).
 
-
+if you write file path the stuffs store in the file or forlder that you its file path but if don't do that
+the stuffs store in the file that you just created
 
 ***************************************************************************************************************
 
