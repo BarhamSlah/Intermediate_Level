@@ -1,3 +1,5 @@
+"In both cases—reading a file and writing a file—you must use a try-catch block
+
 All of them are Java classes used to write text to files
 
 Classes        :   When to use it?
