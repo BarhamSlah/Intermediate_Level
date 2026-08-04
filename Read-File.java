@@ -4,6 +4,15 @@ RandomAccessFile  :  Large files or database record	Uses a pointer :
         (seek()) to jump directly to any location in a file to read or write without starting from the beginning.
 
 
+FileNotFoundException
+ 1- The file path or file name is misspelled.    2- The file does not exist on disk.
+3- The path points to a directory (folder) instead of a file.   4- Opening a file for reading without read permissions.
+
+IOException
+1- Reading from or writing to a corrupted file.    2- A network or storage connection drops during transfer.
+3- Disk space is full while trying to write.     4- Trying to read from a stream/reader that has already been closed.
+
+
 You must always include the exact file name and extension (test.txt) at the end of the file path for both reading and writing files.
 
         When reading, Java needs the exact name so it knows which file to open.
