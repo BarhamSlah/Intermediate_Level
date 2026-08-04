@@ -3,6 +3,13 @@ FileInputStream	Binary files  :  (.jpg, .mp3, .pdf, .zip)  :  Reads raw bytes di
 RandomAccessFile  :  Large files or database record	Uses a pointer :
         (seek()) to jump directly to any location in a file to read or write without starting from the beginning.
 
+
+You must always include the exact file name and extension (test.txt) at the end of the file path for both reading and writing files.
+
+        When reading, Java needs the exact name so it knows which file to open.
+
+        When writing, Java needs the exact name so it knows what to name the file it creates or overwrites.
+
  ******************************************************************************************************************
 
         import java.io.BufferedReader;

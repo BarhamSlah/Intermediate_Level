@@ -11,6 +11,12 @@ FileOutputStream :  For binary files (images, audio, video).
 if you write file path the stuffs store in the file or forlder that you its file path but if don't do that
 the stuffs store in the file that you just created
 
+You must always include the exact file name and extension (test.txt) at the end of the file path for both reading and writing files.
+
+        When reading, Java needs the exact name so it knows which file to open.
+
+        When writing, Java needs the exact name so it knows what to name the file it creates or overwrites.
+
 ***************************************************************************************************************
 
 import java.io.FileNotFoundException;
