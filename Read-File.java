@@ -24,9 +24,9 @@ public class Main {
 
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader(filePath))){
 
-            String line;
-            while ((line = bufferedReader.readLine()) != null) {
-                System.out.println(line);
+            String eachLine;
+            while ((eachLine = bufferedReader.readLine()) != null) {
+                System.out.println(eachLine);
             }
 
         }catch (FileNotFoundException e){
