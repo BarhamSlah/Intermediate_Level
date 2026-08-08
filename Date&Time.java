@@ -8,15 +8,16 @@ import java.time.format.DateTimeFormatter;
 
         try {
 
-            LocalDate localDate = LocalDate.now();
-            LocalTime localTime = LocalTime.now();
-            LocalDateTime localDateTime = LocalDateTime.now();
+            LocalDate localDate = LocalDate.now();  // for current Date
+            LocalTime localTime = LocalTime.now();  // for current Time
+            LocalDateTime localDateTime = LocalDateTime.now(); // for current Date&Time
 
-            LocalDate localDate2 = LocalDate.of(2007, 11, 4);
-            LocalTime localTime2 = LocalTime.of(1, 51, 2);
-            LocalDateTime localDateTime2 = LocalDateTime.of(2025, 1, 12, 12, 37, 53);
+            LocalDate localDate2 = LocalDate.of(2007, 11, 4);  // for manually Date
+            LocalTime localTime2 = LocalTime.of(1, 51, 2);  // for manually Time
+            LocalDateTime localDateTime2 = LocalDateTime.of(2025, 1, 12, 12, 37, 53);  // for manually Date&Time
 
-            DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yy-MM-dd  HH-mm-ss");
+            // It's up to you , how would you wanna display Date&Time
+            DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yy-MM-dd | HH-mm-ss");
             String dateFormatter = localDateTime.format(dateTimeFormatter);
             System.out.println(dateFormatter);
 
@@ -37,6 +38,7 @@ import java.time.format.DateTimeFormatter;
             System.out.print(localTime2);
             System.out.println(localDate2);
 
+        // if you encounter invalid input
         }catch (DateTimeException e){
             System.out.println(e.getMessage());
         }
