@@ -28,6 +28,7 @@ public class Main {
             Clip clip = AudioSystem.getClip();
             clip.open(audioInputStream);
 
+            //  should write while loop in music-player
             while (!choice.equalsIgnoreCase("Q")) {
 
                 if (choice.equalsIgnoreCase("P")) {
